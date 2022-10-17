@@ -1,0 +1,7 @@
+{
+  "name": "restador",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
