@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+
+
+ion-content {
+  --background: tan;
+}
+
+
+@media screen and (max-width: 992px) {
+  ion-content {
+    --background: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ion-content {
+    --background: olive;
+  }
+}

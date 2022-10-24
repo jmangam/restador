@@ -7,6 +7,20 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  num1: number;
+  num2: number;
+  numR: number;
+
+
+  resta() {
+    this.numR= this.num1 - this.num2;
+    console.log(this.numR);
+  }
+
+  reinicia() {
+    this.num1=null;
+    this.num2=null;
+    this.numR=null;
+  }
 
 }
