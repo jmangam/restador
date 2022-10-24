@@ -28,18 +28,18 @@
 
 
 ion-content {
-  --background: tan;
+  --background: rgb(250, 202, 139);
 }
 
 
 @media screen and (max-width: 992px) {
   ion-content {
-    --background: blue;
+    --background: rgb(86, 86, 237);
   }
 }
 
 @media screen and (max-width: 600px) {
   ion-content {
-    --background: olive;
+    --background: rgb(244, 244, 144);
   }
 }
