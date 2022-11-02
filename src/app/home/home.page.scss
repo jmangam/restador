@@ -43,3 +43,11 @@ ion-content {
     --background: rgb(244, 244, 144);
   }
 }
+
+@media  screen and (landscape) {
+
+  ion-content {
+    --background: rgb(212, 0, 255);
+  }
+
+}
